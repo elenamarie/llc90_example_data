@@ -1,18 +1,4 @@
 {"__comment__": "JSON file specifying the image to use for a given type name and resolution. Read in by cartopy.mpl.geoaxes.read_user_background_images.",
-  "BM": {
-    "__comment__": "Blue Marble Next Generation, Dezember ",
-    "__source__": "https://neo.sci.gsfc.nasa.gov/view.php?datasetId=BlueMarbleNG-TB",
-    "__projection__": "PlateCarree",
-    "low": "BM_dez_1_degree.jpeg",
-    "high": "BM_dez_0_25_degree.jpeg"},
-
-    "BM_jul": {
-    "__comment__": "Blue Marble Next Generation, July ",
-    "__source__": "https://neo.sci.gsfc.nasa.gov/view.php?datasetId=BlueMarbleNG-TB",
-    "__projection__": "PlateCarree",
-    "low": "BM_jul_1_degree.jpeg",
-    "high": "BM_jul_0_25_degree.jpeg"},
-
     "BM_jun": {
     "__comment__": "Blue Marble Next Generation, June ",
     "__source__": "https://neo.sci.gsfc.nasa.gov/view.php?datasetId=BlueMarbleNG-TB",
@@ -20,28 +6,10 @@
     "low": "BM_jun_1_degree.jpeg",
     "high": "BM_jun_0_25_degree.jpeg"},
 
-
-    "pop": {
-    "__comment__": "Population density from Nasa earth observations website",
-    "__source__": "https://neo.sci.gsfc.nasa.gov/view.php?datasetId=SEDAC_POP",
-    "__projection__": "PlateCarree",
-    "high": "population.jpeg"},
-
-    "topo": {
-    "__comment__": "Topography of land",
-    "__source__": "https://neo.sci.gsfc.nasa.gov/view.php?datasetId=SRTM_RAMP2_TOPO",
-    "__projection__": "PlateCarree",
-    "high": "topo_0_25_degree.jpeg"},
-    
     "topo_grey": {
     "__comment__": "Topography of land",
     "__source__": "https://neo.sci.gsfc.nasa.gov/view.php?datasetId=SRTM_RAMP2_TOPO",
     "__projection__": "PlateCarree",
-    "high": "topo_0_25_degree_grey.jpeg"},
-    
-    "bathy": {
-    "__comment__": "Topography of land",
-    "__source__": "https://neo.sci.gsfc.nasa.gov/view.php?datasetId=GEBCO_BATHY",
-    "__projection__": "PlateCarree",
-    "high": "bathy_0_25_degree.jpeg"}
+    "high": "topo_0_25_degree_grey.jpeg"}
+
 }
